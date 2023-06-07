@@ -65,19 +65,17 @@ const months = [
 ];
 
 const tasks = {
-    January: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    February: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    March: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    April: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    May: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    June: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    July: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    August: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    September: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    October: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    November: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] },
-    December: { dayTasks: [], weekTasks1: [], weekTasks2: [], weekTasks3: [], weekTasks4: [], monthTasks: [] }
-};
+    "January":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "February":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},"March":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "April":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "May":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "June":{"dayTasks":["dadsdsa"],"weekTasks1":["numpy","flask","javascript","tailwindcss","(some) python for data analysis","(some) physchology of money","structure fo atom","units and dimensions","trignometry","mongodb","node js","periodicity and classifications of elements","mathematics tools","motion in a stiraght line","14 python problems"],"weekTasks2":["pandas","php","permutation and combination","some Holiday homework","mysql","python for data analysis","physochology of money","4 codewithharry python projects","2 original python projects","strapi","motioni in a plane","laws of motion","molecular structure and chemical bonding"],"weekTasks3":["holida yomework","20 websites","extra questions fof trigonoetry","extra questions of structure of atom","extra questions of chemcial bonding","extra questions of periodicity and classifications of elements","extra questions of permutation and combination","extra quesitons of motion in a plain","motion in a straight line","1 panch mishtan website","window 7 on potato pc","phone root"],"weekTasks4":["dadsdsad"],"monthTasks":["structure of atom","flask","django","periodicity and classifciations fo elements","pandas","numpy","units and dimensions","tailwindcss","javascript","react js","node js","20 website clone","4 codewithharry python projects","2 original python projects","php","motion in a straight line","motion in a plane","trignometry","python for data analysis","permutation and combination","some basic concepts of chemistry","phsychology of money","mongodb","mysql","32 python problems","holiday homework","mathematics tools","strapi"]},
+    "July":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "August":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "September":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "October":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "November":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]},
+    "December":{"dayTasks":[],"weekTasks1":[],"weekTasks2":[],"weekTasks3":[],"weekTasks4":[],"monthTasks":[]}}
 
 // Initialize the month select with the current month
 const currentMonth = new Date().toLocaleString('default', { month: 'long' });
